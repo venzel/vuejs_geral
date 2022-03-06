@@ -1,19 +1,29 @@
-# vuejs_geral
+# Vue Geral
 
-## Project setup
-```
-yarn install
-```
+## CSS Pre copile
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Documentation: https://cli.vuejs.org/guide/css.html
 
-### Compiles and minifies for production
-```
-yarn build
+## Add packages sass-loader and sass
+
+Atenção: A versão 10 foi a que funcionou!
+
+```bash
+yarn add -D sass-loader@10^ sass
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Prototyping
+
+Documentation: https://v4.cli.vuejs.org/guide/prototyping.html
+
+### Add package
+
+```bash
+yarn global add @vue/cli-service-global
+```
+
+### Run
+
+```bash
+vue serve ./src/prototypings/Racer.vue
+```
